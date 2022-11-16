@@ -1,0 +1,44 @@
+@media (max-width: 795px){
+
+    .container{
+        margin: 250px 20px;
+        padding-bottom: 250px;
+    }
+    .container .cartao{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+
+  .container .cartao .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 50px 10px;
+        
+    } 
+    
+    .container .cartao .info h1{
+        font-size: 30px;
+      
+    }
+
+    .container .cartao .info p{
+        max-width: 250px;
+    }
+  
+  
+    .container .cartao .info ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+ 
+    .container .cartao .img{
+        display: flex;
+        border-radius: 10px 10px 0 0 ;
+        overflow: hidden;
+    }
+   
+}    
